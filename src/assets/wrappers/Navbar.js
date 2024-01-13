@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Wrapper = styled.nav`
   height: var(--nav-height);
@@ -30,13 +30,16 @@ const Wrapper = styled.nav`
     align-items: center;
     width: 100px;
   }
+
   .btn-container {
     display: flex;
     align-items: center;
   }
+
   @media (min-width: 992px) {
     position: sticky;
     top: 0;
+
     .nav-center {
       width: 90%;
     }

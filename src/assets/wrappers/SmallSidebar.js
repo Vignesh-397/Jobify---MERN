@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Wrapper = styled.aside`
   @media (min-width: 992px) {
@@ -24,7 +24,7 @@ const Wrapper = styled.aside`
   .content {
     background: var(--background-secondary-color);
     width: var(--fluid-width);
-    height: 95vh;
+    height: 96vh;
     border-radius: var(--border-radius);
     padding: 4rem 2rem;
     position: relative;
@@ -32,6 +32,7 @@ const Wrapper = styled.aside`
     align-items: center;
     flex-direction: column;
   }
+
   .close-btn {
     position: absolute;
     top: 10px;
@@ -42,6 +43,7 @@ const Wrapper = styled.aside`
     color: var(--red-dark);
     cursor: pointer;
   }
+
   .nav-links {
     padding-top: 2rem;
     display: flex;
@@ -68,4 +70,5 @@ const Wrapper = styled.aside`
     color: var(--primary-500);
   }
 `;
+
 export default Wrapper;
